@@ -62,6 +62,11 @@ function init(){
         changeMatrixMode: 'cameraTransformMatrix'
     });
 
+	arMarker[2] = new THREEx.ArMarkerControls(arContext, camera, {
+        type : 'pattern',
+        patternUrl : './assets/data/renntier_50.patt',
+        changeMatrixMode: 'cameraTransformMatrix'
+    });
 
 
 
